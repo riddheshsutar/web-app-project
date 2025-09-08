@@ -78,7 +78,7 @@ This guide will walk you through creating a simple web server application, conta
 
 1. **Tag the Docker Image**:
    ```bash
-   docker tag web-server-image sutarriddhesh22/web-server-image:latest
+   docker tag web-server-image your-dockerhub-username/web-server-image:latest
    ```
 
 2. **Log In to Docker Hub**:
@@ -88,7 +88,7 @@ This guide will walk you through creating a simple web server application, conta
 
 3. **Push the Image to Docker Hub**:
    ```bash
-   docker push sutarriddhesh22/web-server-image:latest
+   docker push your-dockerhub-username/web-server-image:latest
    ```
 
 4. **Verify the Image on Docker Hub**:
@@ -128,7 +128,7 @@ This guide will walk you through creating a simple web server application, conta
        spec:
          containers:
          - name: web-server
-           image: sutarriddhesh22/web-server-image:latest
+           image: your-dockerhub-username/web-server-image:latest
            ports:
            - containerPort: 80
    ```
@@ -236,4 +236,4 @@ This process ensures that your Docker image is accessible from Kubernetes withou
 
 ---
 
-**Note**: Always replace `sutarriddhesh22`  with your actual Docker Hub username throughout the commands.
+**Note**: Always replace `your-dockerhub-username` with your actual Docker Hub username throughout the commands.
