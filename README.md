@@ -236,4 +236,4 @@ This process ensures that your Docker image is accessible from Kubernetes withou
 
 ---
 
-**Note**: Always replace `your-dockerhub-username` with your actual Docker Hub username throughout the commands.
+**Note**: Always replace `sutarriddhesh22`  with your actual Docker Hub username throughout the commands.
